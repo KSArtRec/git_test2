@@ -1,7 +1,7 @@
 package git_test2;
 
 public class Hello {
-	String message = "안녕하세요";
+	String message = "hello";
 
     public void say() {
         System.out.println(message);
