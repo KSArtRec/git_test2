@@ -3,12 +3,9 @@ package git_test2;
 public class Hello {
 	String message = "hello";
 
-    public Hello(String message) {
-        this.message = message;
+    public String say(){
+        return message;
     }
-
-    public void say() {
-        System.out.println(message);
-    }
-
 }
+
+
